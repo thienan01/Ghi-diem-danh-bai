@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('bg2.jpg');
+    height: 100%;
+
+ background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containerCSS{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.name, .totalScoreCSS, .enterScoreCSS{
+    width: 80px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace;
+    font-weight: 600px; */
+    font-size: 35px;
+    color: white;
+}
+.updateCSS{
+    width: 381px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    font: size 15px;
+    font-weight: 500px  ;
+}
+.name{
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0px;    
+}
+.enterScoreCSS{
+    border-radius: 15px;
+    height: 25px;
+}

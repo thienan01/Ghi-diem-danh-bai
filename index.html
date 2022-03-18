@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghi diem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container containerCSS">
+
+        <div class="player player1">
+            <input type="text" class="name" placeholder="Tên" style="background-color: #660000;">
+            <span class="span1 spanCSS">
+                <h2 class="scoreState1 scoreStateCSS"></h2>
+            </span>
+            <input type="number" class="enterScore1 enterScoreCSS" placeholder="Điểm">
+            <input type="text" class="totalScore1 totalScoreCSS" value="0" hidden>
+        </div>
+
+        <div class="player player2">
+            <input type="text" class="name" placeholder="Tên" style="background-color: #CC9900;">
+            <span class="span2 spanCSS">
+                <h2 class="scoreState2 scoreStateCSS"></h2>
+            </span>
+            <input type="number" class="enterScore2 enterScoreCSS" placeholder="Điểm">
+            <input type="text" class="totalScore2 totalScoreCSS"value="0" hidden>
+        </div>
+
+        <div class="player player3">
+            <input type="text" class="name" placeholder="Tên" style="background-color: #000660;">
+            <span class="span3 spanCSS">
+                <h2 class="scoreState3 scoreStateCSS"></h2>
+            </span>
+            <input type="number" class="enterScore3 enterScoreCSS" placeholder="Điểm">
+            <input type="text" class="totalScore3 totalScoreCSS" value="0" hidden>
+        </div>
+
+        <div class="player player4">
+            <input type="text" class="name" placeholder="Tên" style="background-color: #003300;">
+            <span class="span4 spanCSS">
+                <h2 class="scoreState4 scoreStateCSS"></h2>
+            </span>
+            <input type="number" class="enterScore4 enterScoreCSS" placeholder="Điểm">
+            <input type="text" class="totalScore4 totalScoreCSS" value="0" hidden>
+        </div>
+        
+    </div>
+    <input type="button" value="Update" class="updateCSS" onclick="update()">
+    <script src="main.js"></script>
+</body>
+
+</html>
