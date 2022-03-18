@@ -33,9 +33,10 @@ h2{
     margin: 5px 5px 5px 5px;
     border-radius: 20px;
     border: none;
-    height: 20px;
-    font: size 15px;
-    font-weight: 500px  ;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600px  ;
 }
 .name{
     height: 30px;
@@ -44,10 +45,16 @@ h2{
     font-size: 20px;
     color: white;
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
-    border: 0px;    
+    border: 0px;   
+    margin-left: 2px; 
 }
 .enterScoreCSS{
     border-radius: 15px;
-    height: 25px;
+    height: 30px;
+}
+.player{
+    border: 10px;
+    background-color: gray;
+    border-radius: 20px;
+
 }
