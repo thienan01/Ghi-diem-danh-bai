@@ -1,62 +1,92 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-image: url('bg3.jpg');
-    height: 100%;
+body {
+  background-image: url("bg4.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
 
- background-position: top;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box !important;
 }
-.containerCSS{
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
+.name,
+.totalScoreCSS,
+.input-score {
+  text-align: center;
 }
-.name, .totalScoreCSS, .enterScoreCSS{
-    width: 80px;
-    text-align: center;
+.row {
+  margin-left: auto !important;
+  --bs-gutter-x: 0px !important;
 }
-h2{
-    text-align: center;
-    /* font-family: 'Courier New', Courier, monospace;
+h2 {
+  text-align: center;
+  /* font-family: 'Courier New', Courier, monospace;
     font-weight: 600px; */
-    font-size: 35px;
-    color: white;
+  font-size: 35px;
+  color: white;
 }
-.updateCSS{
-    width: 381px;
-    margin: 5px 5px 5px 5px;
-    border-radius: 20px;
-    border: none;
-    height: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: 600px  ;
+.content {
+  padding: 8px 0px;
+  height: 100%; /* Set a fixed height for the element */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
 }
-.name{
-    height: 30px;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 20px;
-    color: white;
-    font-weight: 600;
-    border: 0px;   
-    margin-left: 2px; 
-    position: sticky;
-    top: 0px;
+.content::-webkit-scrollbar {
+  width: 0.5em; /* Adjust the width as needed */
+  background-color: transparent; /* Set the background color to match the container */
 }
-.enterScoreCSS{
-    border-radius: 15px;
-    height: 30px;
+.updateCSS {
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 600px;
 }
-.player{
-    border: 10px;
-    background-color: gray;
-    border-radius: 20px;
-
+.name {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  border: 0px;
+  position: sticky;
+  top: 0px;
+}
+.input-score {
+  border-radius: 15px;
+  height: 30px;
+  width: 100%;
+}
+.player {
+  border: 10px;
+  background-color: gray;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.reload {
+  background-color: red;
+  height: 30px;
+}
+.col-css1 {
+  padding-right: 0px !important;
+}
+.col-css2 {
+  padding-left: 0px !important;
+}
+#btn1 {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#btn2 {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
